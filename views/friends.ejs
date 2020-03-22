@@ -1,0 +1,19 @@
+<%- include('templates/header'); -%>
+
+	<h1>My friend list</h1>
+
+
+	<ul>
+		<% friends.forEach(function(friend){ %>
+			<li> <%= friend %> </li>
+
+		<% }); %>
+	</ul>
+
+	<form action="/addfriends" method="POST">
+		<input type="text" name="newfriend" placeholder="Add a name">
+		<button class = "btn btn-success"> ADD </button>
+	</form>
+
+
+<%- include('templates/footer'); -%>

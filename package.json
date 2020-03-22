@@ -1,0 +1,24 @@
+{
+  "name": "lab07",
+  "version": "1.0.0",
+  "description": "Lab7 pixabay",
+  "main": "index.js",
+  "scripts": {
+    "start" : "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FedericoRubino/Lab07_Pixabay_Express.git"
+  },
+  "author": "Federico Rubino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FedericoRubino/Lab07_Pixabay_Express/issues"
+  },
+  "homepage": "https://github.com/FedericoRubino/Lab07_Pixabay_Express#readme",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,22 @@
+body {
+	padding-top: 30px;
+	width:100%;
+}
+
+.jumbotron {
+	color: darkblue;
+	background: lightblue;
+}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-item {
+	width: 100%;
+}
+
+.flex-item > img {
+	width: 100%;
+}
